@@ -9,7 +9,7 @@ const Products = () => {
       .get("http://localhost:3001/products")
       .then((response) => {
         setProducts(response.data);
-
+        console.log(response.data);
         console.log(products);
       })
       .catch((error) => console.log(error));
