@@ -7,7 +7,7 @@ import Comments from "../../comments/Comments";
 
 const Home = () => {
   return (
-    <div className="h-screen flex justify-evenly">
+    <div className="h-screen flex justify-evenly flex-wrap">
       <Hero />
       <Products />
       <Users />
